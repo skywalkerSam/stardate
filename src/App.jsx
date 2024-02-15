@@ -1,11 +1,11 @@
 // Dev: @skywalkerSam
-// Purpose: Project-Starclock
-// Date: 12024.01.17.0351
+// Purpose: Project-Stardate
+// Date: 12024.02.16.0451
 
 /*
 TODOs:
-- change the timezone according to the incoming request's IP origin
-- add functionality to change the timezone manually
+- Update timezone according to incoming request's IP origin
+- Change timezone manually
 
 Resources: 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
@@ -21,8 +21,7 @@ const AppContainer = styled.div`
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: red;
-  font-family: 'Roboto', sans-serif;
+  background-color: black;
   `;
 
 const App = () => {
@@ -116,7 +115,7 @@ const App = () => {
     <div>
       <AppContainer>
         <div>
-          <h1 className="black center hover-blue pointer">
+          <h1 className="red center hover-green pointer">
             { stardate() }
           </h1>
         </div>
