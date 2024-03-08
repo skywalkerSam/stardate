@@ -4,7 +4,7 @@
 
 /*
 TODOs:
-- Update timezone according to incoming request's IP origin
+- Update timezone acc. to incoming IP origin
 - Change timezone manually
 
 Resources: 
