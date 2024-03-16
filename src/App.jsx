@@ -32,7 +32,7 @@ const App = () => {
   let starHour = new Date().getHours();
   let starMinute = new Date().getMinutes();
   let starSecond = new Date().getSeconds();
-  
+
   // console.log(starYear);
   // console.log(starMonth+1);
   // console.log(starDayOfMonth);
@@ -116,7 +116,7 @@ const App = () => {
       <AppContainer>
         <div>
           <h1 className="red center hover-green pointer">
-            { stardate() }
+            {stardate()}
           </h1>
         </div>
       </AppContainer>
